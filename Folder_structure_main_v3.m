@@ -16,7 +16,7 @@ main_path='R:\Ultrasound\_STH\JWH\Scan_Dept\_Monthly\';
 cd(main_path);
 folders=dir('*.*');
 
-for i=5:5% (length(folders)-2)
+for i=3:(length(folders)-2)
         path=strcat(main_path,folders(i).name);
         path=strcat(path,'\');
         cd(path);
